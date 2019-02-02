@@ -1,0 +1,26 @@
+{
+  "name": "microhaven",
+  "version": "1.0.0",
+  "description": "Gloomhaven API in microservies",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "API",
+    "Serverless",
+    "Gloomhaven"
+  ],
+  "author": "Maxwell Krause <maxwellsmart84@gmail.com> (https://github.com/maxwellsmart84)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dynamoose": "^1.5.0",
+    "express": "^4.16.4",
+    "got": "^9.6.0",
+    "serverless-http": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint-config-maxwell": "^1.0.1"
+  }
+}
